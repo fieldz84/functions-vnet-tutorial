@@ -39,4 +39,4 @@ jobs:
           app-name: 'endpointapp'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C47CDF32E66E427D80578E766D735D5B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6AA36C0CC7EF4172BF4366E5EEF9900F }}
